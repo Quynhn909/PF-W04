@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luyện tập vòng lặp</title>
+</head>
+<body>
+    <h1>Luyện tập vòng lặp</h1>
+    <script>
+        // bai 1
+            for (let i = 0; i <= 100; i +=1) {
+            alert(i);
+            if(i == 99){
+                alert("Hoàn thành");
+            }
+        }
+// bai 2
+ temp = prompt("Input temperature: ");
+ i2 = temp;
+
+ for (let i2 = 0; i2 <= 100; i2 +=1) {
+    if(i2 < 20){
+        alert("Tăng nhiệt độ")
+    }else if(i2 > 100){
+        alert("Giảm nhiệt độ")
+    };
+}
+
+// bai 4
+
+let i4 = 5;
+ i4 % 5 == 0;
+
+while(i4 <= 10){
+    alert("5");
+    i4 += 0;
+}
+
+// bai 6
+for (let i6 = 0; i6 <= 210; i6 +=7) {
+
+    console.log(i6);
+    
+}
+// bai 7
+
+
+for (let i7 = 0; i7 <= 100; i7 +=1) {
+if(i7 % 3 == 0){
+    console.log("Fizz");
+}else if(i7 % 5 == 0){
+    console.log("Buzz");
+}else if(i7 % 3 == 0 && i7 % 5 == 0){
+    console.log("FizzBuzz");
+}
+
+};
+
+    </script>
+</body>
+</html>
